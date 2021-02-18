@@ -10,7 +10,7 @@
       "name": "ESM_DynaMORE",
       "showIntroduction": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "ESM_DynaMORE",
         "avsc": "questionnaire"
       },
