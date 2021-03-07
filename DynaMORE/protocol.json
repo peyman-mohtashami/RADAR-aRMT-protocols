@@ -41,7 +41,7 @@
       "estimatedCompletionTime": 10,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
+          "unit": "year",
           "amount": 1
         },
         "repeatQuestionnaire": {
@@ -88,91 +88,6 @@
         "completionWindow": {
           "unit": "min",
           "amount": 1
-        }
-      }
-    },
-    {
-      "name": "ESM_DynaMORE2",
-      "showIntroduction": false,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ESM_DynaMORE",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "Time for a new questionnaire!",
-        "it": "",
-        "nl": "Tijd voor een nieuwe vragenlijst!",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "Thanks for filling this out!",
-        "it": "",
-        "nl": "Bedankt voor het invullen!",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 10,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [
-            1165,
-            1166,
-            1167,
-            1168,
-            1169,
-            1170,
-            1171,
-            1172,
-            1173,
-            1174,
-            1175,
-            1176,
-            1177,
-            1178,
-            1179,
-            1180,
-            1181,
-            1182,
-            1183,
-            1184,
-            1185,
-            1186,
-            1187,
-            1188,
-            1189,
-            1190,
-            1191,
-            1192,
-            1193,
-            1194,
-            1195
-         ]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "min",
-          "amount": 2
         }
       }
     }
