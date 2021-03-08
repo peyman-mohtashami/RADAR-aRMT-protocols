@@ -58,8 +58,8 @@
           "repeat": 0
         },
         "completionWindow": {
-          "unit": "min",
-          "amount": 0
+          "unit": "day",
+          "amount": 1
         }
       }
     }
