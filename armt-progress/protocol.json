@@ -1,0 +1,68 @@
+{
+  "version": "0.1.1",
+  "schemaVersion": "0.1.0",
+  "name": "ESM_DynaMORE",
+  "healthIssues": [
+    "general"
+  ],
+  "protocols": [
+    {
+      "name": "ESM_DynaMORE",
+      "showIntroduction": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "ESM_DynaMORE",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 10,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            660,
+            900,
+            1140
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
+        }
+      }
+    }
+  ]
+}
+
