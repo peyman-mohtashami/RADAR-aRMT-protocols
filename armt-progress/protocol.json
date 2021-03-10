@@ -287,6 +287,29 @@
           "unit": "day",
           "amount": 1
         }
+      },
+      "progress": {
+        "chartType": {
+          "type": "line", 
+          "marker": true,
+          "multiCharts": true,
+          "steps": ["day","week","hour"],
+          "roundedCompletionPercentage": {
+            "enabled": true,
+            "values": [0,25,50,100],
+            "markerColors": ["#f00","#0f0","#00f"]
+          },
+          "lineColor": "#ccc"
+        },
+        "progress_title": {
+          "en": "Thanks for filling this out!",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "progress_description": "Lorem ipsum"
       }
     }
   ]
