@@ -42,12 +42,25 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 7
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [570]
+          "unitsFromZero": [
+            570,
+            10650,
+            20730,
+            30810,
+            40890,
+            50970,
+            61050,
+            71130,
+            81210,
+            91290,
+            101370,
+            111450
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -106,12 +119,25 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 7
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [600]
+          "unitsFromZero": [
+            600,
+            10680,
+            20760,
+            30840,
+            40920,
+            51000,
+            61080,
+            71160,
+            81240,
+            91320,
+            101400,
+            111480
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -170,12 +196,25 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 21
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [345]
+          "unitsFromZero": [
+            345,
+            30585,
+            60825,
+            91065,
+            121305,
+            151545,
+            181785,
+            212025,
+            242265,
+            272505,
+            302745,
+            332985
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -234,12 +273,25 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 21
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [10425]
+          "unitsFromZero": [
+            10425,
+            40665,
+            70905,
+            101145,
+            131385,
+            161625,
+            191865,
+            222105,
+            252345,
+            282585,
+            312825,
+            343065
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -298,12 +350,25 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 21
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [20505]
+          "unitsFromZero": [
+            20505,
+            50745,
+            80985,
+            111225,
+            141465,
+            171705,
+            201945,
+            232185,
+            262425,
+            292665,
+            322905,
+            353145
+          ]
         },
         "reminders": {
           "unit": "day",
