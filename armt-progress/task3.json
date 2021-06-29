@@ -1,0 +1,1046 @@
+[
+    {
+        "index": 24,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1615610700000,
+        "name": "AUDIO",
+        "nQuestions": 4,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "Find a quiet space.",
+        "notifications": [
+            {
+                "task": {
+                    "name": "AUDIO",
+                    "timestamp": 1615610700000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1615610700000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 3
+    },
+    {
+        "index": 0,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1615624200000,
+        "name": "PHQ8",
+        "nQuestions": 8,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "PHQ8",
+                    "timestamp": 1615624200000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1615624200000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Tracking your symptoms through a smartphone and Fitbit might help research to better understand health conditions. Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 0
+    },
+    {
+        "index": 12,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1615626000000,
+        "name": "RSES",
+        "nQuestions": 10,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "RSES",
+                    "timestamp": 1615626000000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1615626000000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking is a technique often used in treatment to increase insight into your symptoms (Kramer et al., 2014). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 1
+    },
+    {
+        "index": 28,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1616215500000,
+        "name": "AUDIO_2",
+        "nQuestions": 4,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "Find a quiet space.",
+        "notifications": [
+            {
+                "task": {
+                    "name": "AUDIO_2",
+                    "timestamp": 1616215500000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1616215500000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 3
+    },
+    {
+        "index": 1,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1616229000000,
+        "name": "PHQ8",
+        "nQuestions": 8,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "PHQ8",
+                    "timestamp": 1616229000000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1616229000000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Tracking your symptoms through a smartphone and Fitbit might help research to better understand health conditions. Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 0
+    },
+    {
+        "index": 13,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1616230800000,
+        "name": "RSES",
+        "nQuestions": 10,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "RSES",
+                    "timestamp": 1616230800000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1616230800000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking is a technique often used in treatment to increase insight into your symptoms (Kramer et al., 2014). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 1
+    },
+    {
+        "index": 32,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1616820300000,
+        "name": "AUDIO_3",
+        "nQuestions": 4,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "Find a quiet space.",
+        "notifications": [
+            {
+                "task": {
+                    "name": "AUDIO_3",
+                    "timestamp": 1616820300000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1616820300000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 3
+    },
+    {
+        "index": 2,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1616833800000,
+        "name": "PHQ8",
+        "nQuestions": 8,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "PHQ8",
+                    "timestamp": 1616833800000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1616833800000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Tracking your symptoms through a smartphone and Fitbit might help research to better understand health conditions. Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 0
+    },
+    {
+        "index": 14,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1616835600000,
+        "name": "RSES",
+        "nQuestions": 10,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "RSES",
+                    "timestamp": 1616835600000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1616835600000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking is a technique often used in treatment to increase insight into your symptoms (Kramer et al., 2014). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 1
+    },
+    {
+        "index": 25,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1617421500000,
+        "name": "AUDIO",
+        "nQuestions": 4,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "Find a quiet space.",
+        "notifications": [
+            {
+                "task": {
+                    "name": "AUDIO",
+                    "timestamp": 1617421500000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1617421500000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 3
+    },
+    {
+        "index": 3,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1617435000000,
+        "name": "PHQ8",
+        "nQuestions": 8,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "PHQ8",
+                    "timestamp": 1617435000000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1617435000000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Tracking your symptoms through a smartphone and Fitbit might help research to better understand health conditions. Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 0
+    },
+    {
+        "index": 15,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1617436800000,
+        "name": "RSES",
+        "nQuestions": 10,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "RSES",
+                    "timestamp": 1617436800000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1617436800000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking is a technique often used in treatment to increase insight into your symptoms (Kramer et al., 2014). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 1
+    },
+    {
+        "index": 29,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1618026300000,
+        "name": "AUDIO_2",
+        "nQuestions": 4,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "Find a quiet space.",
+        "notifications": [
+            {
+                "task": {
+                    "name": "AUDIO_2",
+                    "timestamp": 1618026300000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1618026300000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 3
+    },
+    {
+        "index": 4,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1618039800000,
+        "name": "PHQ8",
+        "nQuestions": 8,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "PHQ8",
+                    "timestamp": 1618039800000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1618039800000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Tracking your symptoms through a smartphone and Fitbit might help research to better understand health conditions. Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 0
+    },
+    {
+        "index": 16,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1618041600000,
+        "name": "RSES",
+        "nQuestions": 10,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "RSES",
+                    "timestamp": 1618041600000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1618041600000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking is a technique often used in treatment to increase insight into your symptoms (Kramer et al., 2014). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 1
+    },
+    {
+        "index": 33,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1618631100000,
+        "name": "AUDIO_3",
+        "nQuestions": 4,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "Find a quiet space.",
+        "notifications": [
+            {
+                "task": {
+                    "name": "AUDIO_3",
+                    "timestamp": 1618631100000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1618631100000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 3
+    },
+    {
+        "index": 5,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1618644600000,
+        "name": "PHQ8",
+        "nQuestions": 8,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "PHQ8",
+                    "timestamp": 1618644600000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1618644600000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Tracking your symptoms through a smartphone and Fitbit might help research to better understand health conditions. Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 0
+    },
+    {
+        "index": 17,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1618646400000,
+        "name": "RSES",
+        "nQuestions": 10,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "RSES",
+                    "timestamp": 1618646400000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1618646400000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking is a technique often used in treatment to increase insight into your symptoms (Kramer et al., 2014). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 1
+    },
+    {
+        "index": 26,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1619235900000,
+        "name": "AUDIO",
+        "nQuestions": 4,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "Find a quiet space.",
+        "notifications": [
+            {
+                "task": {
+                    "name": "AUDIO",
+                    "timestamp": 1619235900000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1619235900000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 3
+    },
+    {
+        "index": 6,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1619249400000,
+        "name": "PHQ8",
+        "nQuestions": 8,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "PHQ8",
+                    "timestamp": 1619249400000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1619249400000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Tracking your symptoms through a smartphone and Fitbit might help research to better understand health conditions. Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 0
+    },
+    {
+        "index": 18,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1619251200000,
+        "name": "RSES",
+        "nQuestions": 10,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "RSES",
+                    "timestamp": 1619251200000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1619251200000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking is a technique often used in treatment to increase insight into your symptoms (Kramer et al., 2014). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 1
+    },
+    {
+        "index": 30,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1619840700000,
+        "name": "AUDIO_2",
+        "nQuestions": 4,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "Find a quiet space.",
+        "notifications": [
+            {
+                "task": {
+                    "name": "AUDIO_2",
+                    "timestamp": 1619840700000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1619840700000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 3
+    },
+    {
+        "index": 7,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1619854200000,
+        "name": "PHQ8",
+        "nQuestions": 8,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "PHQ8",
+                    "timestamp": 1619854200000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1619854200000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Tracking your symptoms through a smartphone and Fitbit might help research to better understand health conditions. Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 0
+    },
+    {
+        "index": 19,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1619856000000,
+        "name": "RSES",
+        "nQuestions": 10,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "RSES",
+                    "timestamp": 1619856000000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1619856000000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking is a technique often used in treatment to increase insight into your symptoms (Kramer et al., 2014). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 1
+    },
+    {
+        "index": 34,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1620445500000,
+        "name": "AUDIO_3",
+        "nQuestions": 4,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "Find a quiet space.",
+        "notifications": [
+            {
+                "task": {
+                    "name": "AUDIO_3",
+                    "timestamp": 1620445500000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1620445500000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 3
+    },
+    {
+        "index": 8,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1620459000000,
+        "name": "PHQ8",
+        "nQuestions": 8,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "PHQ8",
+                    "timestamp": 1620459000000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1620459000000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Tracking your symptoms through a smartphone and Fitbit might help research to better understand health conditions. Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 0
+    },
+    {
+        "index": 20,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1620460800000,
+        "name": "RSES",
+        "nQuestions": 10,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "RSES",
+                    "timestamp": 1620460800000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1620460800000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking is a technique often used in treatment to increase insight into your symptoms (Kramer et al., 2014). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 1
+    },
+    {
+        "index": 27,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1621050300000,
+        "name": "AUDIO",
+        "nQuestions": 4,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "Find a quiet space.",
+        "notifications": [
+            {
+                "task": {
+                    "name": "AUDIO",
+                    "timestamp": 1621050300000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1621050300000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 3
+    },
+    {
+        "index": 9,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1621063800000,
+        "name": "PHQ8",
+        "nQuestions": 8,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "PHQ8",
+                    "timestamp": 1621063800000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1621063800000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Tracking your symptoms through a smartphone and Fitbit might help research to better understand health conditions. Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 0
+    },
+    {
+        "index": 21,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1621065600000,
+        "name": "RSES",
+        "nQuestions": 10,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "RSES",
+                    "timestamp": 1621065600000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1621065600000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking is a technique often used in treatment to increase insight into your symptoms (Kramer et al., 2014). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 1
+    },
+    {
+        "index": 31,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1621655100000,
+        "name": "AUDIO_2",
+        "nQuestions": 4,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "Find a quiet space.",
+        "notifications": [
+            {
+                "task": {
+                    "name": "AUDIO_2",
+                    "timestamp": 1621655100000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1621655100000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 3
+    },
+    {
+        "index": 10,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1621668600000,
+        "name": "PHQ8",
+        "nQuestions": 8,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "PHQ8",
+                    "timestamp": 1621668600000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1621668600000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Tracking your symptoms through a smartphone and Fitbit might help research to better understand health conditions. Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 0
+    },
+    {
+        "index": 22,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1621670400000,
+        "name": "RSES",
+        "nQuestions": 10,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "RSES",
+                    "timestamp": 1621670400000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1621670400000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking is a technique often used in treatment to increase insight into your symptoms (Kramer et al., 2014). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 1
+    },
+    {
+        "index": 35,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1622259900000,
+        "name": "AUDIO_3",
+        "nQuestions": 4,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "Find a quiet space.",
+        "notifications": [
+            {
+                "task": {
+                    "name": "AUDIO_3",
+                    "timestamp": 1622259900000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1622259900000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 3
+    },
+    {
+        "index": 11,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1622273400000,
+        "name": "PHQ8",
+        "nQuestions": 8,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "PHQ8",
+                    "timestamp": 1622273400000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1622273400000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Tracking your symptoms through a smartphone and Fitbit might help research to better understand health conditions. Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 0
+    },
+    {
+        "index": 23,
+        "type": "scheduled",
+        "completed": false,
+        "reportedCompletion": false,
+        "timestamp": 1622275200000,
+        "name": "RSES",
+        "nQuestions": 10,
+        "estimatedCompletionTime": 3,
+        "completionWindow": 259200000,
+        "warning": "",
+        "notifications": [
+            {
+                "task": {
+                    "name": "RSES",
+                    "timestamp": 1622275200000,
+                    "completionWindow": 259200000
+                },
+                "timestamp": 1622275200000,
+                "type": 1,
+                "title": "Questionnaire time",
+                "text": "Symptom tracking is a technique often used in treatment to increase insight into your symptoms (Kramer et al., 2014). Complete any time today."
+            }
+        ],
+        "timeCompleted": 0,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 1
+    }
+]

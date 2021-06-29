@@ -1,0 +1,1521 @@
+{
+  "version": "0.0.76",
+  "schemaVersion": "0.0.1",
+  "name": "HOME_APP_PILOT_1",
+  "healthIssues": ["social health"],
+  "protocols": [{
+      "id": 0,
+    "name": "Short",
+    "showIntroduction": "once",
+    "isDemo": false,
+    "questionnaire": {
+      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+      "name": "short",
+      "avsc": "questionnaire",
+      "icon": {
+        "name": "play"
+      }
+    },
+    "startText": {
+      "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent Survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete. If you have not already done so, please turn on notifications for the HOME app. Notifications can be changed in your phone's Settings.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "endText": {
+      "en": "That is it! Amazing! Thank you!",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "warn": {
+      "en": "",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "estimatedCompletionTime": 1,
+    "protocol": {
+      "repeatProtocol": {
+        "unit": "year",
+        "amount": 50
+      },
+      "repeatQuestionnaire": {
+        "unit": "min",
+        "unitsFromZero": [960]
+      },
+      "completionWindow": {
+        "unit": "min",
+        "amount": 9119
+      }
+    }
+  }, {
+      "id": 1,
+    "name": "Short",
+    "showIntroduction": false,
+    "isDemo": false,
+    "questionnaire": {
+      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+      "name": "short",
+      "avsc": "questionnaire",
+      "icon": {
+        "name": "play"
+      }
+    },
+    "startText": {
+      "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent Survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "endText": {
+      "en": "That is it! Amazing! Thank you!",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "warn": {
+      "en": "",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "estimatedCompletionTime": 1,
+    "protocol": {
+      "repeatProtocol": {
+        "unit": "day",
+        "amount": 7
+      },
+      "repeatQuestionnaire": {
+        "unit": "min",
+        "unitsFromZero": [11040]
+      },
+      "reminders": [{
+        "offset": {
+          "unit": "min",
+          "amount": 1740
+        },
+        "notification": {
+          "title": {
+            "en": "New Survey!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a new 1 minute Short Survey waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }],
+      "completionWindow": {
+        "unit": "min",
+        "amount": 9119
+      }
+    }
+  }, {
+    "id": 2,
+    "name": "Interest",
+    "showIntroduction": true,
+    "isDemo": false,
+    "questionnaire": {
+      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+      "name": "engagement",
+      "avsc": "questionnaire",
+      "icon": {
+        "name": "information"
+      }
+    },
+    "startText": {
+      "en": "Please answer the following questions with regard to your most recent use of the HOME app. If you have not already done so, please turn on notifications for the HOME app. Notifications can be changed in your phone's Settings.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "endText": {
+      "en": "Noted! Many thanks for helping us do this!",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "warn": {
+      "en": "",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "estimatedCompletionTime": 1,
+    "protocol": {
+      "repeatProtocol": {
+        "unit": "year",
+        "amount": 50
+      },
+      "repeatQuestionnaire": {
+        "unit": "min",
+        "unitsFromZero": [960]
+      },
+      "completionWindow": {
+        "unit": "min",
+        "amount": 9119
+      }
+    }
+  }, {
+    "id": 3,
+    "name": "Interest",
+    "showIntroduction": true,
+    "isDemo": false,
+    "questionnaire": {
+      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+      "name": "engagement",
+      "avsc": "questionnaire",
+      "icon": {
+        "name": "information"
+      }
+    },
+    "startText": {
+      "en": "Please answer the following questions with regard to your most recent use of the HOME app.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "endText": {
+      "en": "Noted! Many thanks for helping us do this!",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "warn": {
+      "en": "",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "estimatedCompletionTime": 1,
+    "protocol": {
+      "repeatProtocol": {
+        "unit": "day",
+        "amount": 7
+      },
+      "repeatQuestionnaire": {
+        "unit": "min",
+        "unitsFromZero": [11040]
+      },
+      "reminders": [{
+        "offset": {
+          "unit": "min",
+          "amount": 1740
+        },
+        "notification": {
+          "title": {
+            "en": "New Survey!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a new 1 minute Interest Survey waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }, {
+        "offset": {
+          "unit": "min",
+          "amount": 3180
+        },
+        "notification": {
+          "title": {
+            "en": "Reminder!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a 1 minute Interest Survey still waiting to complete.",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }],
+      "completionWindow": {
+        "unit": "min",
+        "amount": 9119
+      }
+    }
+  }, {
+    "id": 4,
+    "name": "About you",
+    "showIntroduction": "once",
+    "isDemo": false,
+    "questionnaire": {
+      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+      "name": "demographics_part_1",
+      "avsc": "questionnaire",
+      "icon": {
+        "name": "body"
+      }
+    },
+    "startText": {
+      "en": "In this survey, we will be asking you questions about your ethnicity, spoken languages, civil status, housing, household, occupation and religion. If you have not already done so, please turn on notifications for the HOME app. Notifications can be changed in your phone's Settings.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "endText": {
+      "en": "Really appreciate it! Thank you!",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "warn": {
+      "en": "",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "estimatedCompletionTime": 5,
+    "protocol": {
+      "repeatProtocol": {
+        "unit": "year",
+        "amount": 50
+      },
+      "repeatQuestionnaire": {
+        "unit": "min",
+        "unitsFromZero": [960]
+      },
+      "completionWindow": {
+        "unit": "min",
+        "amount": 19199
+      }
+    }
+  }, {
+    "id": 5,
+    "name": "About you II",
+    "showIntroduction": "once",
+    "isDemo": false,
+    "questionnaire": {
+      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+      "name": "demographics_part_2",
+      "avsc": "questionnaire",
+      "icon": {
+        "name": "pulse"
+      }
+    },
+    "startText": {
+      "en": "In this survey, we will be asking you questions about your health over the last 12 months.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "endText": {
+      "en": "Thanks again for taking the time!",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "warn": {
+      "en": "",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "estimatedCompletionTime": 5,
+    "protocol": {
+      "repeatProtocol": {
+        "unit": "year",
+        "amount": 7
+      },
+      "repeatQuestionnaire": {
+        "unit": "min",
+        "unitsFromZero": [11040]
+      },
+      "reminders": [{
+        "offset": {
+          "unit": "min",
+          "amount": 1740
+        },
+        "notification": {
+          "title": {
+            "en": "New Survey!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a new 5 minute About you II Survey waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }, {
+        "offset": {
+          "unit": "min",
+          "amount": 3180
+        },
+        "notification": {
+          "title": {
+            "en": "Reminder!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a 5 minute About you II Survey still waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }],
+      "completionWindow": {
+        "unit": "min",
+        "amount": 19199
+      }
+    }
+  }, {
+    "id": 6,
+    "name": "Work",
+    "showIntroduction": "once",
+    "isDemo": false,
+    "questionnaire": {
+      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+      "name": "employment",
+      "avsc": "questionnaire",
+      "icon": {
+        "name": "briefcase"
+      }
+    },
+    "startText": {
+      "en": "In this survey, we will be asking you questions about occupational (workplace) health. This includes questions about any injuries sustained or illnesses developing during, or because of, your work.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "endText": {
+      "en": "Perfect! We value your ongoing effort!",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "warn": {
+      "en": "",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "estimatedCompletionTime": 5,
+    "protocol": {
+      "repeatProtocol": {
+        "unit": "year",
+        "amount": 7
+      },
+      "repeatQuestionnaire": {
+        "unit": "min",
+        "unitsFromZero": [21120]
+      },
+      "reminders": [{
+        "offset": {
+          "unit": "min",
+          "amount": 1740
+        },
+        "notification": {
+          "title": {
+            "en": "New Survey!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a new 5 minute Work Survey waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }, {
+        "offset": {
+          "unit": "min",
+          "amount": 3180
+        },
+        "notification": {
+          "title": {
+            "en": "Reminder!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a 5 minute Work Survey still waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }],
+      "completionWindow": {
+        "unit": "min",
+        "amount": 19199
+      }
+    }
+  },  {
+    "id": 7,
+    "name": "GP",
+    "showIntroduction": "once",
+    "isDemo": false,
+    "questionnaire": {
+      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+      "name": "gp_access",
+      "avsc": "questionnaire",
+      "icon": {
+        "name": "medkit"
+      }
+    },
+    "startText": {
+      "en": "This survey relates to your access to a General Practitioner (GP) and your treatment in General Practice, including any barriers to care that you might have experienced.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "endText": {
+      "en": " You have completed a quarter of the study! We really value your contribution.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "warn": {
+      "en": "",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "estimatedCompletionTime": 5,
+    "protocol": {
+      "repeatProtocol": {
+        "unit": "year",
+        "amount": 7
+      },
+      "repeatQuestionnaire": {
+        "unit": "min",
+        "unitsFromZero": [31200]
+      },
+      "reminders": [{
+        "offset": {
+          "unit": "min",
+          "amount": 1740
+        },
+        "notification": {
+          "title": {
+            "en": "New Survey!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a new 5 minute GP Survey waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }, {
+        "offset": {
+          "unit": "min",
+          "amount": 3180
+        },
+        "notification": {
+          "title": {
+            "en": "Reminder!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a 5 minute GP Survey still waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }],
+      "completionWindow": {
+        "unit": "min",
+        "amount": 19199
+      }
+    }
+  }, {
+    "id": 8,
+    "name": "Health",
+    "showIntroduction": "once",
+    "isDemo": false,
+    "questionnaire": {
+      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+      "name": "wellbeing",
+      "avsc": "questionnaire",
+      "icon": {
+        "name": "happy"
+      }
+    },
+    "startText": {
+      "en": "This survey assesses your general health and wellbeing, including the impact of any illnesses on a broad range of functional activities. This survey also contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the Resources section in the app.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "endText": {
+      "en": "All done. Thank you for helping us to help others. For further support with issues raised in this survey, please talk to your GP or visit the Resources section in the app.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "warn": {
+      "en": "",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "estimatedCompletionTime": 5,
+    "protocol": {
+      "repeatProtocol": {
+        "unit": "year",
+        "amount": 7
+      },
+      "repeatQuestionnaire": {
+        "unit": "min",
+        "unitsFromZero": [41280]
+      },
+      "reminders": [{
+        "offset": {
+          "unit": "min",
+          "amount": 1740
+        },
+        "notification": {
+          "title": {
+            "en": "New Survey!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a new 5 minute Health Survey waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }, {
+        "offset": {
+          "unit": "min",
+          "amount": 3180
+        },
+        "notification": {
+          "title": {
+            "en": "Reminder!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a 5 minute Health Survey still waiting to complete.",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }],
+      "completionWindow": {
+        "unit": "min",
+        "amount": 19199
+      }
+    }
+  }, {
+    "id": 9,
+    "name": "Health Literacy",
+    "showIntroduction": "once",
+    "isDemo": false,
+    "questionnaire": {
+      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+      "name": "health_literacy",
+      "avsc": "questionnaire",
+      "icon": {
+        "name": "glasses"
+      }
+    },
+    "startText": {
+      "en": "The following questions are about your experience of being able to find, understand and use information related to health, illness and medical care in the UK.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "endText": {
+      "en": "You are halfway through the study! Tremendous!",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "warn": {
+      "en": "",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "estimatedCompletionTime": 5,
+    "protocol": {
+      "repeatProtocol": {
+        "unit": "year",
+        "amount": 7
+      },
+      "repeatQuestionnaire": {
+        "unit": "min",
+        "unitsFromZero": [51360]
+      },
+      "reminders": [{
+        "offset": {
+          "unit": "min",
+          "amount": 1740
+        },
+        "notification": {
+          "title": {
+            "en": "New Survey!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a new 5 minute Health Literacy Survey waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }, {
+        "offset": {
+          "unit": "min",
+          "amount": 3180
+        },
+        "notification": {
+          "title": {
+            "en": "Reminder!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a 5 minute Health Literacy Survey still waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }],
+      "completionWindow": {
+        "unit": "min",
+        "amount": 19199
+      }
+    }
+  }, {
+    "id": 10,
+    "name": "Sexual health",
+    "showIntroduction": "once",
+    "isDemo": false,
+    "questionnaire": {
+      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+      "name": "sexual_health",
+      "avsc": "questionnaire",
+      "icon": {
+        "name": "moon"
+      }
+    },
+    "startText": {
+      "en": "In this survey, we will be asking you questions about your sexual health, including use of contraception and sexual health services. You can find further information about sexual and reproductive health in the Resources section in the app.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "endText": {
+      "en": "Thank you, another survey completed! Your efforts will contribute to improving wellbeing and health standards for UK migrants like yourself. For further support with issues raised in this survey, visit the Resources section in the app.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "warn": {
+      "en": "",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "estimatedCompletionTime": 5,
+    "protocol": {
+      "repeatProtocol": {
+        "unit": "year",
+        "amount": 7
+      },
+      "repeatQuestionnaire": {
+        "unit": "min",
+        "unitsFromZero": [61440]
+      },
+      "reminders": [{
+        "offset": {
+          "unit": "min",
+          "amount": 1740
+        },
+        "notification": {
+          "title": {
+            "en": "New Survey!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a new 5 minute Sexual Health Survey waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }, {
+        "offset": {
+          "unit": "min",
+          "amount": 3180
+        },
+        "notification": {
+          "title": {
+            "en": "Reminder!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a 5 minute Sexual Health Survey still waiting to complete.",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }],
+      "completionWindow": {
+        "unit": "min",
+        "amount": 19199
+      }
+    }
+  }, {
+    "id": 11,
+    "name": "Mood",
+    "showIntroduction": "once",
+    "isDemo": false,
+    "questionnaire": {
+      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+      "name": "depression",
+      "avsc": "questionnaire",
+      "icon": {
+        "name": "heart"
+      }
+    },
+    "startText": {
+      "en": "In this survey, we will be asking you questions about your mood and its effect on your life. It contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the Resources section in the app.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "endText": {
+      "en": "We know your time is precious. On behalf of the whole HOME app research team, thank you again for taking the time to complete this survey. For further support with issues raised in this survey, please talk to your GP or visit the Resources section in the app.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "warn": {
+      "en": "",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "estimatedCompletionTime": 5,
+    "protocol": {
+      "repeatProtocol": {
+        "unit": "year",
+        "amount": 7
+      },
+      "repeatQuestionnaire": {
+        "unit": "min",
+        "unitsFromZero": [71520]
+      },
+      "reminders": [{
+        "offset": {
+          "unit": "min",
+          "amount": 1740
+        },
+        "notification": {
+          "title": {
+            "en": "New Survey!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a new 5 minute Mood Survey waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }, {
+        "offset": {
+          "unit": "min",
+          "amount": 3180
+        },
+        "notification": {
+          "title": {
+            "en": "Reminder!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a 5 minute Mood Survey still waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }],
+      "completionWindow": {
+        "unit": "min",
+        "amount": 19199
+      }
+    }
+  }, {
+    "id": 12,
+    "name": "Social",
+    "showIntroduction": "once",
+    "isDemo": false,
+    "questionnaire": {
+      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+      "name": "social_connection",
+      "avsc": "questionnaire",
+      "icon": {
+        "name": "people"
+      }
+    },
+    "startText": {
+      "en": "This survey relates to your social relationships. We will be asking you questions about how many social relationships you have and how much support you get from them.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "endText": {
+      "en": "Done. Excellent!! Have a great week!",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "warn": {
+      "en": "",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "estimatedCompletionTime": 5,
+    "protocol": {
+      "repeatProtocol": {
+        "unit": "year",
+        "amount": 7
+      },
+      "repeatQuestionnaire": {
+        "unit": "min",
+        "unitsFromZero": [81600]
+      },
+      "reminders": [{
+        "offset": {
+          "unit": "min",
+          "amount": 1740
+        },
+        "notification": {
+          "title": {
+            "en": "New Survey!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a new 5 minute Mood Survey waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }, {
+        "offset": {
+          "unit": "min",
+          "amount": 3180
+        },
+        "notification": {
+          "title": {
+            "en": "Reminder!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a 5 minute Mood Survey still waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }],
+      "completionWindow": {
+        "unit": "min",
+        "amount": 19199
+      }
+    }
+  }, {
+    "id": 13,
+    "name": "Physical",
+    "showIntroduction": "once",
+    "isDemo": false,
+    "questionnaire": {
+      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+      "name": "physical_activity",
+      "avsc": "questionnaire",
+      "icon": {
+        "name": "bicycle"
+      }
+    },
+    "startText": {
+      "en": "In this survey, we are interested in finding out about your physical activities. The questions will ask you about the time you spent being physically active in the last 7 days, even if you do not consider yourself to be an active person. Please think about the activities you do at work, as part of your house and yard work, to get from place to place, and in your spare time for recreation, exercise or sport.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "endText": {
+      "en": "75% of the study completed! We can't envisage a better participant.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "warn": {
+      "en": "",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "estimatedCompletionTime": 5,
+    "protocol": {
+      "repeatProtocol": {
+        "unit": "year",
+        "amount": 7
+      },
+      "repeatQuestionnaire": {
+        "unit": "min",
+        "unitsFromZero": [91680]
+      },
+      "reminders": [{
+        "offset": {
+          "unit": "min",
+          "amount": 1740
+        },
+        "notification": {
+          "title": {
+            "en": "New Survey!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a new 5 minute Physical Activity Survey waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }, {
+        "offset": {
+          "unit": "min",
+          "amount": 3180
+        },
+        "notification": {
+          "title": {
+            "en": "Reminder!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a 5 minute Physical Activity Survey still waiting to complete.",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }],
+      "completionWindow": {
+        "unit": "min",
+        "amount": 19199
+      }
+    }
+  }, {
+    "id": 14,
+    "name": "Food",
+    "showIntroduction": "once",
+    "isDemo": false,
+    "questionnaire": {
+      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+      "name": "food_security",
+      "avsc": "questionnaire",
+      "icon": {
+        "name": "restaurant"
+      }
+    },
+    "startText": {
+      "en": "In this survey, we will be asking if you, or your household, experienced any disruptions to food supply in the last year and, if so, how severe this has been.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "endText": {
+      "en": "Thank you - Every completed survey counts",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "warn": {
+      "en": "",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "estimatedCompletionTime": 5,
+    "protocol": {
+      "repeatProtocol": {
+        "unit": "year",
+        "amount": 7
+      },
+      "repeatQuestionnaire": {
+        "unit": "min",
+        "unitsFromZero": [101760]
+      },
+      "reminders": [{
+        "offset": {
+          "unit": "min",
+          "amount": 1740
+        },
+        "notification": {
+          "title": {
+            "en": "New Survey!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a new 5 minute Food Security Survey waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }, {
+        "offset": {
+          "unit": "min",
+          "amount": 3180
+        },
+        "notification": {
+          "title": {
+            "en": "Reminder!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a 5 minute Food Security Survey still waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }],
+      "completionWindow": {
+        "unit": "min",
+        "amount": 19199
+      }
+    }
+  }, {
+    "id": 15,
+    "name": "Neighbourhood",
+    "showIntroduction": "once",
+    "isDemo": false,
+    "questionnaire": {
+      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+      "name": "neighbourhood",
+      "avsc": "questionnaire",
+      "icon": {
+        "name": "home"
+      }
+    },
+    "startText": {
+      "en": "In this survey, we will be asking you questions in relation to your neighbourhood, including how safe you feel it is and how satisfied you are living there.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "endText": {
+      "en": "Just one more survey to go. It has been a great journey with you.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "warn": {
+      "en": "",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "estimatedCompletionTime": 5,
+    "protocol": {
+      "repeatProtocol": {
+        "unit": "year",
+        "amount": 7
+      },
+      "repeatQuestionnaire": {
+        "unit": "min",
+        "unitsFromZero": [111840]
+      },
+      "reminders": [{
+        "offset": {
+          "unit": "min",
+          "amount": 1740
+        },
+        "notification": {
+          "title": {
+            "en": "New Survey!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a new 5 minute Neighbourhood Survey waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }, {
+        "offset": {
+          "unit": "min",
+          "amount": 3180
+        },
+        "notification": {
+          "title": {
+            "en": "Reminder!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a 5 minute Neighbourhood Survey still waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }],
+      "completionWindow": {
+        "unit": "min",
+        "amount": 19199
+      }
+    }
+  }, {
+    "id": 16,
+    "name": "Substance use",
+    "showIntroduction": "once",
+    "isDemo": false,
+    "questionnaire": {
+      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+      "name": "alcohol",
+      "avsc": "questionnaire",
+      "icon": {
+        "name": "wine"
+      }
+    },
+    "startText": {
+      "en": "In this survey, we will be asking you questions about any alcohol and other drug use and tobacco smoking habits.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "endText": {
+      "en": "You have reached the end of this study! Every survey you have filled out has helped us better understand the needs of UK migrants. This can inform new policies to improve wellbeing, health care and services for the migrant community. Again, many thanks for participating on behalf of the whole UCL HOME app team!",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "warn": {
+      "en": "",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "estimatedCompletionTime": 5,
+    "protocol": {
+      "repeatProtocol": {
+        "unit": "year",
+        "amount": 7
+      },
+      "repeatQuestionnaire": {
+        "unit": "min",
+        "unitsFromZero": [121920]
+      },
+      "reminders": [{
+        "offset": {
+          "unit": "min",
+          "amount": 1740
+        },
+        "notification": {
+          "title": {
+            "en": "New Survey!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a new 5 minute Substance Use Survey waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }, {
+        "offset": {
+          "unit": "min",
+          "amount": 3180
+        },
+        "notification": {
+          "title": {
+            "en": "Reminder!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a 5 minute Substance Use Survey still waiting to complete.",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }],
+      "completionWindow": {
+        "unit": "min",
+        "amount": 19199
+      }
+    }
+  }]
+}
