@@ -1,5 +1,5 @@
 {
-  "version": "0.0.80",
+  "version": "0.0.81",
   "schemaVersion": "0.0.1",
   "name": "HOME_APP_PILOT_2",
   "healthIssues": ["social health"],
@@ -48,7 +48,7 @@
       },
       "repeatQuestionnaire": {
         "unit": "min",
-        "unitsFromZero": [1290]
+        "unitsFromZero": [752]
       },
       "completionWindow": {
         "unit": "min",
@@ -100,7 +100,7 @@
       },
       "repeatQuestionnaire": {
         "unit": "min",
-        "unitsFromZero": [1305]
+        "unitsFromZero": [765]
       },
       "reminders": [{
         "offset": {
