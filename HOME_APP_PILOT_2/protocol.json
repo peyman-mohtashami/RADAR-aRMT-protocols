@@ -2,134 +2,307 @@
   "version": "0.0.81",
   "schemaVersion": "0.0.1",
   "name": "HOME_APP_PILOT_2",
-  "healthIssues": ["social health"],
-  "protocols": [{
-    "id": 0,
-    "name": "Short",
-    "showIntroduction": "once",
-    "isDemo": false,
-    "questionnaire": {
-      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
-      "name": "short",
-      "avsc": "questionnaire",
-      "icon": {
-        "name": "play"
-      }
-    },
-    "startText": {
-      "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent Survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete. If you have not already done so, please turn on notifications for the HOME app. Notifications can be changed in your phone's Settings.",
-      "it": "",
-      "nl": "",
-      "da": "",
-      "de": "",
-      "es": ""
-    },
-    "endText": {
-      "en": "That is it! Amazing! Thank you!",
-      "it": "",
-      "nl": "",
-      "da": "",
-      "de": "",
-      "es": ""
-    },
-    "warn": {
-      "en": "",
-      "it": "",
-      "nl": "",
-      "da": "",
-      "de": "",
-      "es": ""
-    },
-    "estimatedCompletionTime": 1,
-    "protocol": {
-      "repeatProtocol": {
-        "unit": "year",
-        "amount": 50
-      },
-      "repeatQuestionnaire": {
-        "unit": "min",
-        "unitsFromZero": [752]
-      },
-      "completionWindow": {
-        "unit": "min",
-        "amount": 10
-      }
-    }
-  }, {
-    "id": 1,
-    "name": "Short",
-    "showIntroduction": false,
-    "isDemo": false,
-    "questionnaire": {
-      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
-      "name": "short",
-      "avsc": "questionnaire",
-      "icon": {
-        "name": "play"
-      }
-    },
-    "startText": {
-      "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent Survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete.",
-      "it": "",
-      "nl": "",
-      "da": "",
-      "de": "",
-      "es": ""
-    },
-    "endText": {
-      "en": "That is it! Amazing! Thank you!",
-      "it": "",
-      "nl": "",
-      "da": "",
-      "de": "",
-      "es": ""
-    },
-    "warn": {
-      "en": "",
-      "it": "",
-      "nl": "",
-      "da": "",
-      "de": "",
-      "es": ""
-    },
-    "estimatedCompletionTime": 1,
-    "protocol": {
-      "repeatProtocol": {
-        "unit": "year",
-        "amount": 50
-      },
-      "repeatQuestionnaire": {
-        "unit": "min",
-        "unitsFromZero": [765]
-      },
-      "reminders": [{
-        "offset": {
-          "unit": "min",
-          "amount": 5
-        },
-        "notification": {
-          "title": {
-            "en": "New Survey!",
-            "it": "",
-            "nl": "",
-            "da": "",
-            "de": "",
-            "es": ""
-          },
-          "text": {
-            "en": "You have a new 1 minute Short Survey waiting to complete.",
-            "it": "",
-            "nl": "",
-            "da": "",
-            "de": "",
-            "es": ""
-          }
+  "healthIssues": [
+    "social health"
+  ],
+  "protocols": [
+    {
+      "id": 0,
+      "name": "Short",
+      "showIntroduction": "once",
+      "isDemo": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+        "name": "short",
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "play"
         }
-      }],
-      "completionWindow": {
-        "unit": "min",
-        "amount": 10
+      },
+      "startText": {
+        "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent Survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete. If you have not already done so, please turn on notifications for the HOME app. Notifications can be changed in your phone's Settings.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "That is it! Amazing! Thank you!",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 50
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1060
+          ]
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 10
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "Short",
+      "showIntroduction": false,
+      "isDemo": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+        "name": "short",
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "play"
+        }
+      },
+      "startText": {
+        "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent Survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "That is it! Amazing! Thank you!",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 50
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1060, 1070
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 5
+            },
+            "notification": {
+              "title": {
+                "en": "New Survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have a new 1 minute Short Survey waiting to complete. 1",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
+          }
+        ],
+        "completionWindow": {
+          "unit": "min",
+          "amount": 10
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Short",
+      "showIntroduction": false,
+      "isDemo": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+        "name": "short",
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "play"
+        }
+      },
+      "startText": {
+        "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent Survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "That is it! Amazing! Thank you!",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 50
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1060, 1070, 1080
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 5
+            },
+            "notification": {
+              "title": {
+                "en": "New Survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have a new 1 minute Short Survey waiting to complete. 2",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
+          }
+        ],
+        "completionWindow": {
+          "unit": "min",
+          "amount": 10
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Short",
+      "showIntroduction": false,
+      "isDemo": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+        "name": "short",
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "play"
+        }
+      },
+      "startText": {
+        "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent Survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "That is it! Amazing! Thank you!",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 50
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1060, 1070, 1075, 1080
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 5
+            },
+            "notification": {
+              "title": {
+                "en": "New Survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have a new 1 minute Short Survey waiting to complete. 3",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
+          }
+        ],
+        "completionWindow": {
+          "unit": "min",
+          "amount": 10
+        }
       }
     }
-  }]
+  ]
 }
