@@ -52,7 +52,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1060
+            1068
           ]
         },
         "completionWindow": {
@@ -107,7 +107,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1060, 1070
+            1068, 1078
           ]
         },
         "reminders": [
@@ -188,7 +188,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1060, 1070, 1080
+            1068, 1078, 1088
           ]
         },
         "reminders": [
@@ -269,7 +269,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1060, 1070, 1075, 1080
+            1068, 1078, 1083, 1088
           ]
         },
         "reminders": [
